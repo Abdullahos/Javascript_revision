@@ -9,3 +9,10 @@ console.log(0.1 + 0.2 === 0.3);
 
 console.log(1 < 2 < 3); //1<2<3 -> (true (1) < 3)   true 
 console.log(3 > 2 > 1); //3>2>1 -> true>1 -> false
+console.log('\n');
+let num = 1;
+console.log(typeof num === 'number'); //true
+console.log(!(typeof num === 'number'))  //false
+console.log(!!typeof num) //true
+console.log(!typeof num)// false
+console.log(!typeof num === 'number'); //false
